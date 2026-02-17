@@ -15,12 +15,12 @@ persistence:
   storageClass: managed-csi
 
 keyVault:
-  name: kv-aks-dev-aayush1290
-  tenantId: aac42910-b03a-44c1-b372-7cee5c67a2d5
+  name: <key-vault-name>
+  tenantId: <id>
 
   #  THIS MUST BE KUBELET CLIENT ID
-  identityClientId: 75e65c28-33d2-4706-9468-cc99877c4215
+  identityClientId: <id>
 
   secrets:
-    rootPassword: mysql-root-password1
-    database: mysql-database1
+    rootPassword: <id>
+    database: <id>
