@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: acrdevayu2026512.azurecr.io/spring-crud
-  tag: "latest"
+  tag: "<tag>"
   pullPolicy: Always
 
 service:
@@ -12,8 +12,8 @@ service:
 mysql:
   host: mysql
   port: 3306
-  database: bookdb
+  database: <database-name>
 
 keyVault:
   secrets:
-    rootPassword: mysql-root-password1
+    rootPassword:<secertID-from-azure>
