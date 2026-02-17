@@ -11,4 +11,4 @@ tags = {
   owner       = "platform"
 }
 key_vault_name = "kv-aks-dev-aayush1290"
-tenant_id      = "aac42910-b03a-44c1-b372-7cee5c67a2d5"
+tenant_id      = "<id>"
